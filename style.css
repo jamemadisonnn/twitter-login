@@ -1,0 +1,236 @@
+/* --- BROWSER RESET / BODY STYLE ---*/
+body {
+    background-color: #242D34;
+    margin: 0px;
+}
+a {
+    text-decoration: none;
+}
+
+.center-block {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.spacer-10 {
+    height: 10px;
+}
+.spacer-20 {
+    height: 20px;
+}
+.spacer-40 {
+    height: 40px;
+}
+
+.login-block {
+    display: grid;
+    justify-content: center;
+    padding: 40px;
+    border-radius: 20px;
+    background-color: black;
+}
+
+.center-item {
+    display: flex;
+    justify-content: center;
+}
+
+/* --- BUTTON SECTION --- */
+.main-btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 14px;
+    font-family: MainFont;
+    height: 45px;
+    width: 255px;
+    background-color: #009FED;
+    border-radius: 100px;
+    transition-duration: 0.2s;
+}
+.main-btn:hover {
+    background-color: #1981D2;
+}
+
+
+.secondary-btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #009FED;
+    font-size: 14px;
+    font-family: MainFont;
+    height: 45px;
+    width: 255px;
+    border-radius: 100px;
+    border: 1px solid #526471;
+    transition-duration: 0.2s;
+}
+.secondary-btn:hover {
+    border-color: #009FED;
+    background-color: #030F18;
+}
+
+.google-btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: black;
+    font-size: 14px;
+    font-family: MainFont;
+    height: 45px;
+    width: 255px;
+    background-color: white;
+    border-radius: 100px;
+    gap: 10px;
+    transition-duration: 0.2s;
+}
+.google-btn:hover {
+    background-color: #D7DBDC;
+}
+
+
+/* --- BLOCK SECTION ---*/
+
+.flexbox {
+    display: flex;
+}
+.aha-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.aha-line {
+    background-color: #71767A;
+    width: 50px;
+    height: 1px;
+}
+.aha-line-2 {
+    background-color: #71767A;
+    width: 107px;
+    height: 1px;
+}
+
+
+/* --- MARGIN / PADDING & MAX-WIDTH --- */
+.mw-255 {
+    max-width: 255px;
+}
+.px-20 {
+   padding: 0px 20px;
+}
+
+
+
+/* --- FONT / TEXT SECTION --- */
+@font-face {
+    font-family: MainFont;
+    src: url(Site-Function/Font/AcidGrotesk-Bold.otf);
+}
+
+/*HEADING*/
+.heading-28 {
+    font-family: MainFont;
+    font-size: 28px;
+    margin: 0px;
+}
+
+/*TXT*/
+.txt-11 {
+    font-family: MainFont;
+    font-size: 11px;
+    margin: 0px;
+}
+.txt-12 {
+    font-family: MainFont;
+    font-size: 11px;
+    margin: 0px;
+}
+
+/*JUSTIFY / ALIGN*/
+.txt-center {
+    text-align: center;
+}
+
+/*COLOR*/
+.twitter-blue-txt {
+    color: #009FED;
+}
+.white-color-txt {
+    color: white;
+}
+.third-color-txt {
+    color: #71767A;
+}
+
+.txt-11.twitter-blue-txt:hover {
+    cursor: help;
+    text-decoration: underline;
+}
+
+
+/* --- INPUT SECTION --- */
+input[type=email] {
+    color: white;
+    width: 235px;
+    height: 45px;
+    padding: 0px 10px;
+    border-radius: 5px;
+    border: 1px solid #2D2F32;
+    background: black;
+    outline: none;
+}
+input[type=email]:focus {
+    border: 1px solid #009FED;
+}
+
+input[type=password] {
+    color: white;
+    width: 235px;
+    height: 45px;
+    padding: 0px 10px;
+    border-radius: 5px;
+    border: 1px solid #2D2F32;
+    background: black;
+    outline: none;
+}
+input[type=password]:focus {
+    border: 1px solid #009FED;
+}
+
+.no-outline {
+    outline: none;
+    border: none;
+    cursor: pointer;
+}
+
+.submit-btn-error {
+    background-color: black;
+    cursor: pointer;
+}
+
+
+
+
+/* === Homepage === */
+/* --- Container --- */
+
+.center-container {
+    justify-content: center;
+    align-items: center;
+}
+
+.content-container {
+    display: block;
+}
+
+.media-block {
+    width: 600px;
+    height: 600px;
+    padding: 16px, 16px, 0px;
+    border: 1px solid #2F3336;
+    border-radius: 15px;
+}
